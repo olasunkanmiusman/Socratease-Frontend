@@ -1,0 +1,234 @@
+ #Navbar{
+  background-color: #04243c;
+  position: fixed;
+}
+
+#saveQuestion{
+  background-color: rgb(60, 6, 85);
+color:white;
+font:bolder;
+padding: 5px;
+} 
+
+#AddQuestion{
+  background-color: rgba(201, 193, 193, 0.76);
+   padding: 5px;
+}
+
+#HeadingNav{
+  height: 50px;
+}
+#logo{
+  margin-left: 80px;
+}
+#Slider{
+  background-color:#04243c;
+  margin-top: 65px;
+  padding-top: 90px;
+}
+
+#pages{
+  padding-top: 65px;
+  margin-left: 350px;
+  text-align: center;
+  width: 90%;
+  margin-top: 50px;
+}
+#sliderLinks{
+  padding-left: 130px
+}
+#NavRow1{
+  margin-top: -70px;
+}
+
+#NavRow2{
+  margin-top: -120px;
+}
+
+#NavRow3{
+  margin-top: -170px;
+}
+
+#NavRow4{
+  margin-top: -205px;
+}
+
+#NavRow5{
+  margin-top: -245px;
+}
+
+#homePage{
+  background-color:  #5dbd84;
+  padding-top: 90px;
+}
+
+#HomeOffcanvasBody{
+  margin-top: 100px;
+}
+
+#HomeOffcanvas{
+  width: 90%;
+}
+#taketest{
+  width:30%;
+  margin-top: 40px;
+  background-color:#04243c;
+  color: white; 
+}
+ 
+#NavRow6{
+  margin-top: -300px;
+}
+
+ 
+
+#studentsreport{
+  border-color: #04243c;
+  text-decoration: none;
+}
+
+#studentsreport:hover{
+  background-color:  #d7e8f5;
+}
+
+
+#studentEmail{
+  color:#04243c;
+  font: bolder;
+}
+
+#groupReport{
+  background-color: #5dbd84;
+  width: 100%;
+  height: 150px;
+}
+#studentName{
+  margin-top: 1000px;
+}
+
+#innerLogo{
+  margin-left: 100px;
+}
+
+#BacktoHome{
+  text-align: center; 
+  margin-left:   48%;
+  background-color:#04243c;
+}
+
+#innerHeading{
+  background-color: #5dbd84;
+   width: 106%;
+margin-left: -12px;
+
+}
+
+#NavRow7{
+  margin-top: -350px;
+}
+
+#offcanvasscrolling{
+  width: 80%;
+  
+}
+
+#offcanvaslogo{
+  width: 80%;
+}
+
+#homepagelogo{
+  margin-right: 140px;
+}
+
+#QuestionPage{
+  background-color: whitesmoke
+}
+
+#offcanvas-header{  
+  background-color:#04243c;
+}
+#signIn{
+  background-color: #5dbd84;
+}
+#offcanvascancel{
+  background-color: white;
+}
+
+/* Lower Screen Size */
+@media screen and (max-width: 1025px) {
+#Slider{
+  display: none;
+}
+#logo{
+  margin-left: 10px;
+  width: 50%;
+  height: auto;
+  /* margin-top: -10px; */
+}
+#taketest{
+  width:70%
+}
+
+#pages{
+  margin:auto;
+}
+}
+
+#QuestionForm{
+  width: 95%;
+  margin:auto;
+  padding:20px;
+  margin-top: -20px;
+}
+
+#points{
+  width: 20%;
+}
+ 
+
+
+@media screen and (max-width: 1024px) {
+  #logo{
+    margin-left: 80px;
+    width: 50%;
+    height: auto;
+    margin-top: -40px;
+  }
+
+  #logoHome{
+    margin-right: 110px;
+    width: 50%;
+    height: auto;
+    margin-top: -40px;  
+  }
+  #pages{
+ width: 100%;
+margin:15px;  
+}
+
+ #InnerNav{
+  width: 100%;
+ }
+ 
+ #option{ 
+  width: 300%;
+  margin-left: -20px;
+}
+  
+}
+#PageLine{
+border-color: rgb(204, 193, 172);
+border-width: 3px;
+margin-top: 10px;
+}
+
+
+@media screen and (min-width: 1024px){
+  #option{ 
+    width: 100%;
+    margin-left: -20px;
+  }
+  body{
+    overflow-x: hidden;
+  }
+}
