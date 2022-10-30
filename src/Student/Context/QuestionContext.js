@@ -41,7 +41,7 @@ export const QuestionProvider = ({children}) => {
             QuestionType, QuestionName,QuestionPoint,QuestionBody,
             QuestionPath, QuestionAnswerOptions,QuestionAnswers
         }
-        var Path =  window.location.host  + "/admin/report/" + QuestionPath;
+        var Path = "https://" + window.location.host  + "/admin/report/" + QuestionPath;
         
         const body = {Question,Student,QuestionSelectedAnswer, QuestionTime,Path};
 
