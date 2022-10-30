@@ -233,11 +233,10 @@ const HandleInputSelectAnswer = (e) => {
  </div> 
  <div className="row border border-5  bg-light p-3 mx-3 my-2 ps-5">
  <div className='col-12 col-md-6'>
-    <h5>Question Name: {Question.Question.QuestionName} Demo</h5>
-    <h5>Serial Number: {Question.questionNumber} of  4{Question.questionLength}</h5>
+    <h5>Question Name: {Question.Question.QuestionName}</h5>
+    <h5>Serial Number: {Question.questionNumber} of {Question.questionLength}</h5>
     </div>
     <div className="col-12 col-md-6 text-center text-lg-start">
-        12:90:23
         {
             (Question.body.QuestionTime > 0) ?
     <MyTimer expiryTimestamp={time} />  : null
