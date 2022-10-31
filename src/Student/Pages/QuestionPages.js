@@ -57,7 +57,8 @@ const data = await response.json();
 if(response.ok){ 
     Question.QuestionMethods.setError(`You are successfully done with ${Question.Question.QuestionName} Test. We will get back to you on ${Question.Student.Email}`);
     localStorage.removeItem("showTest");
-    localStorage.removeItem("Testurl");
+    localStorage.removeItem("Testurl"); 
+    Question.QuestionMethods.setShowTest(false);
 }
  
 }
