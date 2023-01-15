@@ -20,7 +20,7 @@ export const QuestionProvider = ({children}) => {
     const [QuestionTime, setQuestionTime] = useState(0);
     const [showTest, setShowTest] = useState(false);
     const [error, setError] = useState(undefined); 
-    const url = (`https://socratease-backend.onrender.com`); 
+    const url = (`https://socratease-backend.onrender.com`);  
      
 
         const setAnswerOptions = (value) => {
